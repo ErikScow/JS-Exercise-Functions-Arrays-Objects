@@ -85,7 +85,7 @@ function makeSmartPerson(param) {
       return a + b;
     },
     speak(){
-      return `Hello, my name is ${name}`;
+      return `Hello, my name is ${param}`;
     },
   };
   return smartPerson;
